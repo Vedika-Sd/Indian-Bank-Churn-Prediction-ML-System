@@ -25,6 +25,17 @@ This repository is structured as a full ML system, not only a single model noteb
 8. Inference service with explainability (`src/inference.py`, `api/main.py`)
 9. Containerized serving (`Dockerfile`)
 
+## 🚀 Live API
+
+Base URL:
+https://indian-bank-churn-prediction-ml-system.onrender.com
+
+Swagger Docs:
+https://indian-bank-churn-prediction-ml-system.onrender.com/docs
+<br>
+<img width="1366" height="653" alt="image" src="https://github.com/user-attachments/assets/7d186513-698f-4d7b-ae0c-680d8dff61a0" />
+
+
 High-level runtime flow:
 - Input JSON -> FastAPI (`/predict`) -> `src.inference.predict()`
 - Inference uses persisted sklearn `Pipeline` (`models/model.pkl`)
