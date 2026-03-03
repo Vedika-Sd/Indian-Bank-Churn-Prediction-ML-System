@@ -1,6 +1,6 @@
 # Indian Bank Churn Prediction ML System
 
-End-to-end churn prediction system for Indian retail banking, built as a reproducible ML pipeline from EDA and experimentation notebooks to production inference via FastAPI.
+End-to-end churn prediction system for Indian retail banking, built as a reproducible ML pipeline from EDA and experimentation notebooks to production inference via FastAPI and Docker. Deployed API live on Render.
 
 ## 1. Business Objective
 
